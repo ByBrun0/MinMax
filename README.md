@@ -159,22 +159,22 @@ Média - MinMax3       |  Média - Aleatorio
 
 ### Análise Dos Gráficos
 
-**Análise Média - MinMax1:** No gráfico do MinMax1, observa-se que a ordenação do vetor tem um impacto mínimo nos resultados de tempo, indicado pela proximidade das retas. Entretanto, ainda assim o vetor aleatório apressenta
+- **Análise Média - MinMax1:** No gráfico do MinMax1, observa-se que a ordenação do vetor tem um impacto mínimo nos resultados de tempo, indicado pela proximidade das retas. Entretanto, ainda assim o vetor aleatório apressenta
 vantagem em relação aos outros. 
 
-**Análise Média - MinMax2:** No gráfico do MinMax2, o impacto da ordenação do vetor nos resultados do algoritmo é ainda menor, como pode se observar pela aproximação das 3 retas, é quase impercepitivel a diferença das retas
+- **Análise Média - MinMax2:** No gráfico do MinMax2, o impacto da ordenação do vetor nos resultados do algoritmo é ainda menor, como pode se observar pela aproximação das 3 retas, é quase impercepitivel a diferença das retas
 dos vetores ordenados e diferença de tempo do aleatório caiu para os vetores ordenados. Vale ressaltar que o tempo piorou para o MinMax1.
 
-**Análise Média - MinMax3:** No gráfico do MinMax3, quando há a ordenação do vetor o impacto é significativo no custo do algoritmo, com tempos muitos maiores e que chegam a serem maiores que o dobro quando o vetor é aleatório 
+- **Análise Média - MinMax3:** No gráfico do MinMax3, quando há a ordenação do vetor o impacto é significativo no custo do algoritmo, com tempos muitos maiores e que chegam a serem maiores que o dobro quando o vetor é aleatório 
 em comparação com um vetor ordenado crescente ou decrescente.
 
-**Análise Média - Aleatório:** No gráfico de Aleatório, o MinMax1 leva uma ligeira vantagem sobre o MinMax2, enquanto que o MinMax3 teve um tempo estrondosamente maior com relação às outras retas, ressaltando a ineficiencia
+- **Análise Média - Aleatório:** No gráfico de Aleatório, o MinMax1 leva uma ligeira vantagem sobre o MinMax2, enquanto que o MinMax3 teve um tempo estrondosamente maior com relação às outras retas, ressaltando a ineficiencia
 do terceiro algoritmo quanto a vetores não ordenados.
 
-**Análise Média - Crescente:** No gráfico da Crescente, conseguimos observar uma melhora do algoritmo 3 e ele apresenta maior eficiência com relação aos outros 2 algoritmos para grandes massas de dados, enquanto que para pequenas
+- **Análise Média - Crescente:** No gráfico da Crescente, conseguimos observar uma melhora do algoritmo 3 e ele apresenta maior eficiência com relação aos outros 2 algoritmos para grandes massas de dados, enquanto que para pequenas
 eles andam relativamente pertos e o ganho não é tão significativo.
 
-**Análise Média - Decrescentes:** No gráfico da Decrescente, podemos observar o mesmo acontecimento do gráfico **Média - Crescente**, em que os dois primeiros algoritmos se mantem juntos, apesar de apresentarem uma leve
+- **Análise Média - Decrescentes:** No gráfico da Decrescente, podemos observar o mesmo acontecimento do gráfico **Média - Crescente**, em que os dois primeiros algoritmos se mantem juntos, apesar de apresentarem uma leve
 separação de suas retas, enquanto que o algoritmo 3 não sofreu alteração e se manteve abaixo em comparação aos de mais para grandes vetores.
 
 ### Conclusão
