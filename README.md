@@ -1,4 +1,4 @@
-# -Análise Comparativa de Implementações do Algoritmos Minimax-
+# -Análise Comparativa de Implementações do Algoritmos MinMax-
 
 ## Introdução
 
